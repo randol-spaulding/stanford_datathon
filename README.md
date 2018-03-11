@@ -1,5 +1,7 @@
 # 2018 Stanford Datathon submission
 
+Authors: Randol Spaulding, Ani Saraswathula, David Vacek
+
 The data is built and exported to csv files by running build_data.m. The same data is then fit to the logistic model in model.m, which exports as two tables
 
 In policy_data.csv, we list out the policy types enacted by each state from 2014-2016 horizontally. It's organized this way for easy code formatting.
