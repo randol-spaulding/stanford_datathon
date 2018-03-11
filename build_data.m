@@ -7,16 +7,16 @@
 % Get the following data:
 % State | County | Population |  OD Mortality % | % Adults Uninsured | 
 % Healthcare Costs | Median Household Income
-raw_2014 = readtable('2014_CHR.csv');
+raw_2014 = readtable('data/2014_CHR.csv');
 clean_2014 = raw_2014(:,[2:4,43,45,52,63]);
-raw_2015 = readtable('2015_CHR.csv');
+raw_2015 = readtable('data/2015_CHR.csv');
 clean_2015 = raw_2015(:,[2:4,56,58,65,74]);
-raw_2016 = readtable('2016_CHR2.csv');
+raw_2016 = readtable('data/2016_CHR2.csv');
 clean_2016 = raw_2016(:,[2,3,32,42,49,54]);
-raw_2016_2 = readtable('2016CHR_CSV_Analytic_Data_v2.csv');
+raw_2016_2 = readtable('data/2016CHR_CSV_Analytic_Data_v2.csv');
 pop_2016 = raw_2016_2(:,[2,295]);  % 2016 seperated population file
 extra_meta = raw_2016_2(:,[93, 124,134,149,154,169,249,259,270, 285,295,350]);
-raw_2017 = readtable('2017_CHR.csv');
+raw_2017 = readtable('data/2017_CHR.csv');
 clean_2017 = raw_2017(:,[2,3,32,41,48,52]);
 
 % Shannon county in North Dakota changed names to Oglala Lakota in 2016
